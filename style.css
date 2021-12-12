@@ -1,4 +1,8 @@
-.game {
+body {
+  
+}
+
+.game {background-image: url(images/316969_3e64be563019dba753d0f30cb0a2b460.png);
   width: 600px;
   height: 200px;
   border-bottom: 1px solid #000;

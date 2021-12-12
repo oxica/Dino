@@ -11,7 +11,7 @@ function jump() {
   }
   setTimeout(function () {
     dino.classList.remove("jump");
-  }, 300);
+  }, 600);
 }
 let isAlive = setInterval(function () {
   let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
@@ -19,7 +19,7 @@ let isAlive = setInterval(function () {
     window.getComputedStyle(cactus).getPropertyValue("left")
   );
 
-  if (cactusLeft < 10 && cactusLeft > 0 && dinoTop >= 100) {
-    alert("GAME OVER!!");
+  if (cactusLeft < 15 && cactusLeft > 0 && dinoTop >= 100) {
+    alert("GAME OVER!!!");
   }
 }, 10);
